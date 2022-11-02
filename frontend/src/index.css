@@ -92,6 +92,11 @@ header a {
   position: relative;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
 }
+
+.workout-details:hover{
+  border:3px solid black
+  
+}
 .workout-details h4 {
   margin: 0 0 10px 0;
   font-size: 1.2em;
@@ -116,12 +121,12 @@ header a {
 /* new workout form */
 label, input {
   display: block;
-  color: #ffc600;
+  color: white;
   font-size: 16px;
 }
 
 h2{
-  color: white;
+  color: rgb(227, 188, 188);
 }
 input {
   padding: 10px;
@@ -141,6 +146,10 @@ form button {
   border-radius: 4px;
   cursor: pointer;
 }
+
+form button:hover{
+  background-color: #5bb098;
+}
 div.error {
   padding: 10px;
   background: #ffefef;
@@ -159,6 +168,20 @@ input.error {
 nav {
   display: flex;
   align-items: center;
+}
+
+nav button{
+  background: var(--primary);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+nav button:hover{
+  background-color: #5bb098;
 }
 nav a {
   margin-left: 10px;

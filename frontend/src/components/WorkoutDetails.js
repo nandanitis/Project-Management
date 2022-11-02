@@ -31,7 +31,7 @@ const WorkoutDetails = ({ workout }) => {
         {workout.load}
       </p>
       <p>
-        <strong> Website : <a href={workout.link}></a> </strong>
+        <strong> Website : <a target="_blank" href={workout.link}>{workout.link}</a> </strong>
         {workout.reps}
       </p>
       <p>{workout.createdAt}</p>
